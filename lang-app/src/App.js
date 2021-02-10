@@ -1,6 +1,7 @@
 import React from "react";
 
 import * as ReactBootStrap from "react-bootstrap";
+import Home from "./Main/home";
 import ChineseCourses from "./Component/ChineseCourses";
 import JapaneseCourses from "./Component/JapaneseCourses";
 import KoreanCourses from "./Component/KoreanCourses";
@@ -16,6 +17,9 @@ const App = () => {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
+          <Route path="/home" component={Home}>
+            <Home />
+          </Route>
           <Route path="/chinesecourses" component={ChineseCourses}>
             <ChineseCourses />
           </Route>

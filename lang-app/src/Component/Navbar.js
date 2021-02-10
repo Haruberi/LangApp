@@ -17,7 +17,7 @@ const Navbar = () => {
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="mr-auto">
-            <Link to="/">
+            <Link to="/home">
               <ReactBootStrap.Nav.Link href="#home">
                 Home
               </ReactBootStrap.Nav.Link>
