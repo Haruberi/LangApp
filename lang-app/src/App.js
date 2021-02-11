@@ -7,6 +7,11 @@ import JapaneseCourses from "./Component/JapaneseCourses";
 import KoreanCourses from "./Component/KoreanCourses";
 import Navbar from "./Component/Navbar";
 
+import Chinlevel1 from "./Levelpages/chinlevel1";
+import Japlevel1 from "./Levelpages/japlevel1";
+import Korlevel1 from "./Levelpages/korlevel1";
+import Button from "react-bootstrap/Button";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const App = () => {

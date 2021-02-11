@@ -1,4 +1,5 @@
 import React from "react";
+import * as ReactBootStrap from "react-bootstrap";
 
 const Japlevel1 = () => {
   return (

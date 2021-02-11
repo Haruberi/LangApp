@@ -1,19 +1,16 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 
 const JapaneseCourses = () => {
   return (
     <div className="App">
       <h1>Learn Japanese</h1>
       <p>Choose a level</p>
-      <button type="button" class="btn btn-default btl-lg">
-        JAPANESE LEVEL 1
-      </button>
-      <button type="button" class="btn btn-default btl-lg">
-        JAPANESE LEVEL 2
-      </button>
-      <button type="button" class="btn btn-default btl-lg">
-        JAPANESE LEVEL 3
-      </button>
+      <>
+        <Button variant="outline-danger">JAPANESE LEVEL 1</Button>{" "}
+        <Button variant="outline-danger">JAPANESE LEVEL 2</Button>{" "}
+        <Button variant="outline-danger">JAPANESE LEVEL 3</Button>{" "}
+      </>
     </div>
   );
 };
