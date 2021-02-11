@@ -7,9 +7,9 @@ const ChineseCourses = () => {
       <h1>Learn Chinese</h1>
       <p>Choose a level</p>
       <>
-        <Button variant="outline-danger">CHINESE LEVEL 1</Button>{" "}
-        <Button variant="outline-danger">CHINESE LEVEL 2</Button>{" "}
-        <Button variant="outline-danger">CHINESE LEVEL 3</Button>{" "}
+        <Button variant="outline-danger">JAPANESE LEVEL 1</Button>{" "}
+        <Button variant="outline-danger">JAPANESE LEVEL 2</Button>{" "}
+        <Button variant="outline-danger">JAPANESE LEVEL 3</Button>{" "}
       </>
     </div>
   );

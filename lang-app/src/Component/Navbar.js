@@ -11,7 +11,7 @@ const Navbar = () => {
         bg="danger"
         variant="dark"
       >
-        <ReactBootStrap.Navbar.Brand href="#home">
+        <ReactBootStrap.Navbar.Brand href="#mainpage">
           Language Learning!
         </ReactBootStrap.Navbar.Brand>
         <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />

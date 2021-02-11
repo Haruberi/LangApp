@@ -19,8 +19,6 @@ const App = () => {
     <div className="App">
       <Router>
         <Navbar />
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/home" component={Home}>
             <Home />
@@ -33,6 +31,19 @@ const App = () => {
           </Route>
           <Route path="/koreancourses" component={KoreanCourses}>
             <KoreanCourses />
+          </Route>
+        </Switch>
+
+        <Button />
+        <Switch>
+          <Route path="/chinlevel1" component={Chinlevel1}>
+            <Chinlevel1 />
+          </Route>
+          <Route path="/japlevel1" component={Japlevel1}>
+            <Japlevel1 />
+          </Route>
+          <Route path="/korlevel1" component={Korlevel1}>
+            <Korlevel1 />
           </Route>
         </Switch>
       </Router>

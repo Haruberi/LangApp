@@ -1,5 +1,4 @@
 import React from "react";
-import * as ReactBootStrap from "react-bootstrap";
 
 const Chinlevel1 = () => {
   return (
