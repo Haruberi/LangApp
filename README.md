@@ -1,2 +1,2 @@
 # LangApp
-Usin React
+Language application using React
